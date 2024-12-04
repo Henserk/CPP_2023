@@ -2,7 +2,7 @@
 #include <string>
 
 
-void reverse(const std::string& str) {
+void reverse(const std::string str) {
     for (int i = str.length() - 1; i >= 0; --i) {
         std::cout << str[i];
     }
